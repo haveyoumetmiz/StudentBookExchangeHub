@@ -40,7 +40,7 @@
           <div class="form-btn">
             <span>Login</span>
           </div>
-          <form action="{% url 'register' %}" method="post" id="RegForm">{% csrf_token %}
+          <form action="{% url 'register' %}" method="post" id="RegForm">
             <input type="text" name="username" placeholder="Username" required />
             <input type="password" name="password" placeholder="Password" required />
             <button type="submit" class="btn">Login</button>
